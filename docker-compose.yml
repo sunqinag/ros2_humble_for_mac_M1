@@ -15,8 +15,9 @@ services:
     container_name: ros2_humble_dev
     image: jiaxiaofeng/ros2_humble_mac_m1:1.0
     build: ./
-    volumes: 
-      - ./:/home/jiafeng/ros 
+    volumes:  
+      - /Users/sunqiang/data:/root/data
+      - /Users/sunqiang/project:/root/project
     environment:
       - DISPLAY=novnc:0.0
       - ROS_DOMAIN_ID=55
