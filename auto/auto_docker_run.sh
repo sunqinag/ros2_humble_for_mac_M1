@@ -16,7 +16,6 @@ docker run -itd --net=host \
     -e ROS_DOMAIN_ID=55 \
     --name ros2_humble \
     --privileged=true \
-    jiaxiaofeng/ros2_humble_mac_m1:1.0 \
+    ubuntu:20.04 \
     /bin/bash
-
 
