@@ -13,7 +13,7 @@ services:
     # container_name: ${ROS_DEV_CONTAINER_NAME}
     # image: ${ROS_DEV_CONTAINER_NAME} ## For now, the names are the same. Can change if ever a need arises.
     container_name: ros2_humble_dev
-    image: jiaxiaofeng/ros2_humble_mac_m1:1.0
+    image: ubuntu:20.04
     build: ./
     volumes:  
       - /Users/sunqiang/data:/root/data
