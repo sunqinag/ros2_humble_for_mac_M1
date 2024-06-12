@@ -8,7 +8,6 @@
 ### 
 
 docker run -itd --net=host \
-    -v ${pwd}/../../ws_humble:/home/jiafeng/ros \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -e DISPLAY=192.168.1.102:0 \
     -e GDK_SCALE \
