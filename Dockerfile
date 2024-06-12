@@ -1,5 +1,5 @@
 # Use the official ROS image as the base image
-FROM ros:humble-ros-core-jammy
+FROM ubuntu:20.04
 
 WORKDIR /home/jiafeng/ros/
 
